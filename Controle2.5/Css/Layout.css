@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html{
+	 height: 100%;
+}
+
+body{
+	
+	margin: 0%;
+	padding-top: 0%;
+	padding-left: 0%;
+	padding-right: 0%;
+	background-color: #E6E6E6;
+}
+/* menu */
+nav{
+	background-color: #FFA500;
+}
+
+.home{
+	visibility: hidden;
+}
+
+/*tela de fundo inicial e fomuário */
+
+html,body{
+	background-image: url(".././imagens/fundo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	font-family: 'Numans', sans-serif;
+}
+
+.login_btn{
+	color: black;
+	background-color: #FFA500;
+	width: 100%;
+}
+
+.login_btn:hover{
+	color: black;
+	background-color: white;
+}
+
+.container{
+	height: 100%;
+	align-content: center;
+}
+
+.card{
+	height: 60%;
+	margin-bottom: auto;
+	width: 400px;
+	background-color: #EEE8AA !important;
+}
+
+.login-ativo{
+	color: black;
+	background-color: #FFA500;
+}
+
+.visivel{
+	display: block;
+}
+
+.invisivel{
+	display: none;
+}
+
+/*Referente aos dois botões a cima do formulário*/
+.modeLogin{
+	width: 400px;
+	margin-top: 10%;
+}
+
+.btn:hover{
+	color: black;
+	background-color: #FFA500;
+}
+
+/*Notificações do php*/
+.notice-php{
+	
+	color: red;
+	
+}
+/*
+
+Página do Menu
+*/
+
+.titulo-destaque{
+	border-bottom: 2px #FFA500 solid;
+	border-right: 2px #FFA500 solid;
+	text-align: left;
+	width: 400px;
+	background-color: #EEE8AA;
+}
+
+.container-logado{ 	height: 60%; margin-top: 2%;}
+.form-logado{ background-color: #EEE8AA; height: 40%;}
+
+/*Rodapé*/
+#usFooter{
+	
+    padding-top:32px;
+	background-color: #EEE8AA;
+	padding-bottom: 32px;
+	position:relative;
+    margin-bottom:0;
+	margin-top: 20%;
+	
+}
+
+#usFooter .container{
+    text-align: center;
+}
+
+#usFooter .copy{
+    text-align: center;
+    color:black;
+	font-size: 1.05em;
+}
+
+#usFooter ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+#usFooter a{
+	color: black;
+	font-size: 1.25em;
+	text-align: justify;
+}
+
+#usFooter li{
+    display: inline-block;
+    margin: 0px 15px;
+    line-height: 2;
+}
+
+/* Tabelas */
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+
+.tittle-table{
+	background-color: #F2F2F2;
+	color: black;
+	text-align: center;
+	width:100%;
+}
